@@ -1,0 +1,19 @@
+# Ignore artifacts:
+cordova
+www
+public
+
+# Ignore all HTML files:
+**/*.html
+
+# Ignore all XML files:
+**/*.xml
+
+# Ignore eslintrc file:
+.eslintrc.cjs
+
+# Ignore esbuild.js file:
+esbuild.js
+
+# Ignore android.js file:
+android.js

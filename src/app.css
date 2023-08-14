@@ -1,0 +1,235 @@
+@media only screen and (min-device-width: 1030px) {
+  .icon {
+    cursor: pointer;
+  }
+}
+body {
+  width: 100%;
+  background-color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  user-select: none;
+}
+#app {
+  display: none;
+  margin-top: 120px;
+}
+#app.is-visible {
+  display: block;
+}
+.section-app {
+  display: none;
+}
+.section-app.is-visible {
+  display: block;
+}
+.privacy-title {
+  font-size: 200%;
+}
+.privacy-text {
+  font-size: 125%;
+  padding: 10px 25px 0 25px;
+}
+.container-bongo {
+  height: 224px;
+  position: relative;
+}
+.bongo {
+  width: 335px;
+  height: 224px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+.mouth {
+  z-index: 2;
+}
+.instrument {
+  z-index: 3;
+}
+.paw {
+  visibility: hidden;
+  z-index: 4;
+}
+.paw.is-visible {
+  visibility: visible;
+}
+.whistle {
+  visibility: hidden;
+}
+.whistle.is-visible {
+  visibility: visible;
+}
+.meow {
+  visibility: hidden;
+}
+.meow.is-visible {
+  visibility: visible;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+  position: fixed;
+  bottom: 0;
+  box-shadow:
+    0 -1px 3px rgba(0, 0, 0, 0.12),
+    0 -1px 2px rgba(0, 0, 0, 0.12);
+}
+#menu {
+  visibility: hidden;
+  width: 100%;
+  transition: all 0.2s ease;
+  transform: scale(0);
+  z-index: 6;
+  position: absolute;
+  bottom: 50px;
+  box-shadow:
+    0 -1px 3px rgba(0, 0, 0, 0.12),
+    0 -1px 2px rgba(0, 0, 0, 0.12);
+}
+#menu.is-visible {
+  visibility: visible;
+  transform: scale(1);
+}
+.button-tap {
+  height: 45px;
+  float: left;
+  margin-bottom: 10px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.12);
+}
+.button-tap.is-active {
+  box-shadow:
+    0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+.tap-normal {
+  width: 50%;
+}
+.tap-full {
+  width: 100%;
+}
+.row-3 {
+  width: 33%;
+}
+.row-4 {
+  width: 25%;
+}
+.row-5 {
+  width: 20%;
+}
+.row-last {
+  width: 34%;
+}
+.button-menu {
+  width: 20%;
+  height: 50px;
+  float: left;
+}
+.icon {
+  background-color: #f5f5f5;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  border: none;
+  outline: none;
+}
+.icon-0 {
+  background-image: url('./img/icon-0.webp');
+}
+.icon-1 {
+  background-image: url('./img/icon-1.webp');
+}
+.icon-2 {
+  background-image: url('./img/icon-2.webp');
+}
+.icon-3 {
+  background-image: url('./img/icon-3.webp');
+}
+.icon-4 {
+  background-image: url('./img/icon-4.webp');
+}
+.icon-5 {
+  background-image: url('./img/icon-5.webp');
+}
+.icon-6 {
+  background-image: url('./img/icon-6.webp');
+}
+.icon-7 {
+  background-image: url('./img/icon-7.webp');
+}
+.icon-8 {
+  background-image: url('./img/icon-8.webp');
+}
+.icon-9 {
+  background-image: url('./img/icon-9.webp');
+}
+.icon-tap {
+  background-image: url('./img/icon-tap.webp');
+}
+.icon-bongo {
+  background-image: url('./img/icon-bongo.webp');
+}
+.icon-piano {
+  background-image: url('./img/icon-piano.webp');
+}
+.icon-marimba {
+  background-image: url('./img/icon-marimba.webp');
+}
+.icon-ukulele {
+  background-image: url('./img/icon-ukulele.webp');
+}
+.icon-more {
+  background-image: url('./img/icon-more.webp');
+}
+.icon-mixer {
+  background-image: url('./img/icon-mixer.webp');
+}
+.icon-electric {
+  background-image: url('./img/icon-electric.webp');
+}
+.icon-harp {
+  background-image: url('./img/icon-harp.webp');
+}
+.icon-guitar {
+  background-image: url('./img/icon-guitar.webp');
+}
+.icon-maracas {
+  background-image: url('./img/icon-maracas.webp');
+}
+.icon-drums {
+  background-image: url('./img/icon-drums.webp');
+}
+.icon-cymbal {
+  background-image: url('./img/icon-cymbal.webp');
+}
+.icon-whistle {
+  background-image: url('./img/icon-whistle.webp');
+}
+.icon-bells {
+  background-image: url('./img/icon-bells.webp');
+}
+.icon-cat {
+  background-image: url('./img/icon-cat.webp');
+}
+.icon-chicken {
+  background-image: url('./img/icon-chicken.webp');
+}
+.icon-water {
+  background-image: url('./img/icon-water.webp');
+}
+.icon-table {
+  background-image: url('./img/icon-table.webp');
+}
+.icon-car {
+  background-image: url('./img/icon-car.webp');
+}
+.icon-info {
+  background-image: url('./img/icon-info.webp');
+}
