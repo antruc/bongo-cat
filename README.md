@@ -23,7 +23,7 @@ cordova requirements
 npm install
 npm run build
 ```
-3. Generate apk file:
+4. Generate apk file:
 ```
 cd cordova
 cordova build
