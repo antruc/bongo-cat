@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="250" id="bmf.bongo.cat" version="2.5">
+<widget android-versionCode="260" id="bmf.bongo.cat" version="2.6">
   <name>Bongo Cat</name>
   <description>
     Bongo Cat
   </description>
   <content src="index.html" />
   <preference name="android-minSdkVersion" value="23" />
-  <preference name="android-targetSdkVersion" value="33" />
+  <preference name="android-targetSdkVersion" value="35" />
   <preference name="Orientation" value="portrait" />
   <preference name="FullScreen" value="true" />
   <engines>
     <engine name="cordova" version="12.0.0" />
-    <engine name="cordova-android" version="12.0.0" />
+    <engine name="cordova-android" version="14.0.1" />
   </engines>
 </widget>
