@@ -14,16 +14,12 @@ Cordova-based Android app
 ```
 npm install -g cordova
 ```
-2. Be sure to meet all requirements:
-```
-cordova requirements
-```
-3. Install dependencies, then build:
+2. Install dependencies, then build:
 ```
 npm install
 npm run build
 ```
-4. Generate apk file:
+3. Generate apk file:
 ```
 cd cordova
 cordova build
