@@ -14,7 +14,7 @@ body {
 }
 #app {
   display: none;
-  margin-top: 120px;
+  margin-top: 240px;
 }
 #app.is-visible {
   display: block;
