@@ -8,12 +8,3 @@ public
 
 # Ignore all XML files:
 **/*.xml
-
-# Ignore eslintrc file:
-eslint.config.mjs
-
-# Ignore esbuild.js file:
-esbuild.js
-
-# Ignore android.js file:
-android.js
