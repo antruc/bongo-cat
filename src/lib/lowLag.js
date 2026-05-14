@@ -106,8 +106,9 @@ var lowLag = new (function () {
         this.load = this.loadSoundAudioContext
         this.play = this.playSoundAudioContext
         if (!this.audioContext) {
-          this.audioContext = new (window.AudioContext ||
-            window.webkitAudioContext)()
+          this.audioContext = new (
+            window.AudioContext || window.webkitAudioContext
+          )()
         }
         if (
           (this.useSuspension &=
